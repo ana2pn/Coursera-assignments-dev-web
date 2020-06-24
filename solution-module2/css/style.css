@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+p {
+	width:33.33%;
+	float: left;
+	padding: 20px;
+	background-color: gray;
+	border: 3px solid black;
+}
+body{
+	position: absolute;
+}
+
+
+
+#osTres {
+	position:relative;
+	top: 220px;
+}
+
+h1 {
+	position: relative;
+	top:150px;
+	left: 600px;
+}
+
+#p1 {
+	
+}
+
+#p2 {
+
+}
+
+#p3 {
+
+}
