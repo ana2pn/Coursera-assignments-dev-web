@@ -2,40 +2,46 @@
 	box-sizing: border-box;
 }
 
-#div1 {
-	width:31.8%;
-	padding-top: 10px;
+div {
+	padding-top: 0px;
 	background-color: gray;
 	border: 3px solid black;
+}
+
+#div1{
+	width:31.8%;
+
 	float: left;
 	margin-left: 10px;
 	margin-right: 10px;
+	
+	
 }
 
 #div2 {
 	width:31.8%;
-	padding-top: 10px;
+/*	padding-top: 10px;
 	background-color: gray;
-	border: 3px solid black;
+	border: 3px solid black;*/
 	float: left;
 	margin-left: 10px;
 	margin-right: 10px;
+	
 }
 
 #div3 {
 	width:31.8%;
-	padding-top: 10px;
+	/*padding-top: 10px;
 	background-color: gray;
-	border: 3px solid black;
+	border: 3px solid black;*/
 	float: left;
 	margin-left: 10px;
 	margin-right: 10px;
+
+	
+
 }
 
-#osTres {
-	position:relative;
-	top: 100px;
-}
 
 h1 {
 	text-align: center;
@@ -49,26 +55,24 @@ span{
 	font-size:17px;
 	font-family: arial;
 	border: 2px solid black;
-	text-align: center;
+	
 	
 
 }
 #span1{
 	background-color: yellow;
-	left: 235px;
+	float: right;
 	position: relative;
-
 }
 #span2{
 	background-color: green;
-	left: 265px;
+	float:right;
 	position: relative;
-
 }
 
 #span3{
 	background-color: blue;
-	left: 255px;
+	float: right;
 	position: relative;
 }
 
@@ -77,4 +81,6 @@ p {
 	padding-right: 15px;
 	padding-bottom: 15px;
 	padding-top:5px;
+	margin-top:60px;
+
 }
