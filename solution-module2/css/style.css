@@ -2,21 +2,79 @@
 	box-sizing: border-box;
 }
 
-p {
-	width:33.33%;
-	padding: 15px;
+#div1 {
+	width:31.8%;
+	padding-top: 10px;
 	background-color: gray;
 	border: 3px solid black;
 	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
 
+#div2 {
+	width:31.8%;
+	padding-top: 10px;
+	background-color: gray;
+	border: 3px solid black;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#div3 {
+	width:31.8%;
+	padding-top: 10px;
+	background-color: gray;
+	border: 3px solid black;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 #osTres {
 	position:relative;
-	top: 150px;
+	top: 100px;
 }
 
 h1 {
 	text-align: center;
 }
 
+span{
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size:17px;
+	font-family: arial;
+	border: 2px solid black;
+	text-align: center;
+	
+
+}
+#span1{
+	background-color: yellow;
+	left: 235px;
+	position: relative;
+
+}
+#span2{
+	background-color: green;
+	left: 265px;
+	position: relative;
+
+}
+
+#span3{
+	background-color: blue;
+	left: 255px;
+	position: relative;
+}
+
+p {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-top:5px;
+}
