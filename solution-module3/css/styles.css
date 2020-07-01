@@ -1,9 +1,17 @@
+/**{
+	box-sizing: border-box;
+}*/
+
 /* HEADER */
 #header-nav {
 	background-color: gray;
 	border-radius:0;
 	border: 2px solid black;
+	margin: 0;
+	padding-left: 25px;
 }
+
+
 
 h1 {
 	color: black;
@@ -13,4 +21,25 @@ h1 {
 
 #header-nav a:hover, #header-nav a:focus{
 	text-decoration: none;
+}
+
+#nav-list {
+	margin-top: 0px;
+}
+#nav-list a {
+	color: black;
+	text-align: center;
+	border: 1px solid black;
+}
+
+#nav-list a:hover {
+	background-color: gray;
+}
+
+h2 {
+	text-align: center;
+}
+
+.jumbotron {
+	background-color: gray;
 }
